@@ -66,7 +66,6 @@ header button {
     Footer
 -------------------------*/
 footer {
-  z-index: 100;
   position: fixed;
   bottom: 0;
   display: flex;
@@ -109,6 +108,11 @@ footer span {
   margin-right: auto;
   cursor: pointer;
 }
+#buy-btn:hover {
+  font-size: 18px;
+  border: 3px solid #3da5a9;
+  background-color: #9d87b2;
+}
 
 /*-------------------------
     Mobile Optimzations
@@ -134,11 +138,12 @@ footer span {
   }
   #buy-btn {
     font-family: 'comic-medium';
-    font-size: 20px;
-    text-align: center;
+    font-size: 14px;
+    text-align: center !important;
     color: white;
     height: 32px;
-    width: 54px;
+    width: 66px;
+    padding: 0;
     background-color: #3da5a9;
     border: 2px solid whitesmoke;
     border-radius: 12px;
