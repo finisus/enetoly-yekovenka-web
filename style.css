@@ -44,6 +44,7 @@ header button {
   font-family: 'comic';
   font-size: 18px;
   color: white;
+  cursor: pointer;
 }
 .socials {
   display: flex;
@@ -54,15 +55,10 @@ header button {
   justify-self: end;
   margin-right: 12px;
 }
-.socials img {
+.social-btn {
   width: 32px;
   height: auto;
   border: none;
-}
-#telegram-btn {
-  cursor: pointer;
-}
-#twitter-btn {
   cursor: pointer;
 }
 
@@ -135,5 +131,20 @@ footer span {
     font-size: 12px;
     margin-top: -26px;
     letter-spacing: 0px;
+  }
+  #buy-btn {
+    font-family: 'comic-medium';
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 32px;
+    width: 54px;
+    background-color: #3da5a9;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: auto;
+    cursor: pointer;
   }
 }
