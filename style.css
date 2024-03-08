@@ -38,13 +38,13 @@ header {
 header button {
   background: none;
   border: none;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 .header-item {
   font-family: 'comic';
   font-size: 18px;
   color: white;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 .socials {
   display: flex;
@@ -59,7 +59,7 @@ header button {
   width: 32px;
   height: auto;
   border: none;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 /*-------------------------
@@ -107,7 +107,7 @@ footer span {
   align-self: center;
   margin-left: 12px;
   margin-right: auto;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 #buy-btn:hover {
   font-size: 16px;
@@ -151,6 +151,6 @@ footer span {
     align-self: center;
     margin-left: 12px;
     margin-right: auto;
-    cursor: pointer;
+    cursor: pointer !important;
   }
 }
